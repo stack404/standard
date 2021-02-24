@@ -356,7 +356,7 @@
 
 - __字符串__
 
-统一使用单引号（'），在创建有双引号引用的字符串非常友好：
+  统一使用单引号（'），在创建有双引号引用的字符串非常友好：
 
   :ok_person:推荐：
   ```javascript
@@ -393,11 +393,11 @@
 
 - __使用ES6__
 
-使用 ES6, ES7 的新语法，比如箭头函数、await/async ， 解构， let ， for…of 等等<br/>
+  使用 ES6, ES7 的新语法，比如箭头函数、await/async ， 解构， let ， for…of 等等<br/>
   
 - __括号__
 
-这些关键词，即使只有一行也要有大括号：if else for while do switch try catch finally with <br/>
+  这些关键词，即使只有一行也要有大括号：if else for while do switch try catch finally with <br/>
   :ok_person:推荐：
   ```javascript
   if (condition) {
