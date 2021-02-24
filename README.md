@@ -28,8 +28,7 @@
 
   :ok_person:推荐：`mall-management-system`<br/>
   :no_good:不推荐：`mall_management-system / mallManagementSystem`<br/>  
-  
-  
+  <br/>
 - __目录命名__
 
   全部采用kebab-case风格（小写横线），有复数结构时，要采用复数命名法， 缩写不用复数
