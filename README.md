@@ -48,7 +48,7 @@
 
 - __JS/CSS/SCSS/HTML/PNG 文件命名__
 
-  全部采用 `kebab-case 风格（小写横线）`
+  全部采用 _**kebab-case 风格（小写横线）**_
 
   :ok_person:推荐： `render-dom.js / signup.css / index.html / company-logo.png`<br/>
   :no_good:不推荐： `renderDom.js / UserManagement.html<br/>`
@@ -107,9 +107,9 @@
 
 - __命名__ 
 
-  - class类名使用 kebab-case 风格（小写横线）
-  - id 采用camelCase（小驼峰）式命名
-  - scss 中的变量、函数、混合、placeholder 采用camelCase（小驼峰）式命名
+  - class类名使用 _**kebab-case 风格（小写横线）**_
+  - id 采用 _**camelCase（小驼峰）式命名**_
+  - scss 中的变量、函数、混合、placeholder 采用 _**camelCase（小驼峰）式命名**_
 
   ID 和 class 的名称总是使用可以反应元素目的和用途的名称，或其他通用的名称，代替表象和晦涩难懂的名称
 
@@ -421,7 +421,7 @@
 
   - __组件名为多个单词__
   
-    组件名应始终是多个单词，命名规范遵守kebab-case（小写横线）格式。（这样能避免现在或未来的HTML元素冲突，HTML元素始终是单个单词）。<br/>
+    组件名应始终是多个单词，命名规范遵守 _**kebab-case（小写横线）格式**_。（这样能避免现在或未来的HTML元素冲突，HTML元素始终是单个单词）。<br/>
     :ok_person:推荐：
     ```javascript
     export default {
@@ -441,7 +441,7 @@
     }
     ```
 
-  - __组件文件名为kebab-case（小写横线）格式__
+  - __组件文件名为*kebab-case（小写横线）格式*__
   
     即单词之间采用单横杠隔开。<br/>
     :ok_person:推荐：
@@ -492,7 +492,7 @@
     |- UProfOpts.vue （使用了缩写）
     ```
 
-  - __在template中使用组件，采用CamelCase（大驼峰）模式，仅有自己时使用自闭合__
+  - __在template中使用组件，采用*CamelCase（大驼峰）模式*，仅有自己时使用自闭合__
  
     :ok_person:推荐：
     ```html
@@ -507,7 +507,7 @@
   
   - __prop定义应尽量详细__
  
-    - 必须使用 camelCase （小驼峰）命名
+    - 必须使用 _**camelCase （小驼峰）命名**_
     - 必须指定类型
     - 必须加上注释，表明其含义
     - 必须加上 required 或者 default，两者二选其一
@@ -670,7 +670,7 @@
   
   - __router命名规范__
   
-    path、childrenPath采用kebab-case（小写横线）风格（和文件目录、文件名保持一致）<br/>
+    path、childrenPath采用 _**kebab-case（小写横线）**_ 风格（和文件目录、文件名保持一致）<br/>
     name采用CamelCase（大驼峰）风格（和组件name保持一致，keep-alive根据组件name进行缓存）<br/>
   
     :ok_person:推荐：
@@ -699,7 +699,7 @@
   
   - __path的命名规范__
   
-    采用kebab-case（小写横线）风格，必须以“/”开头，子路由需要把父节点的path也带上。<br/>
+    采用 _**kebab-case（小写横线）**_ 风格，必须以“/”开头，子路由需要把父节点的path也带上。<br/>
     :ok_person:推荐：
     ```javascript
     {
@@ -740,7 +740,7 @@
   
 - __目录说明__ 
 
-  所有文件名都采用kebab-case（小写横线）风格。
+  所有文件名都采用 _**kebab-case（小写横线）**_ 风格。
   ```
   src                               源码目录
   |-- api                              所有api接口
@@ -790,7 +790,7 @@
       
   - __assets目录__
 
-    存放静态资源，资源名使用kebab-case（小写横线）风格。<br/>
+    存放静态资源，资源名使用 _**kebab-case（小写横线）**_ 风格。<br/>
     ```
     |assets
     |-- icons
