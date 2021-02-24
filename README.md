@@ -28,7 +28,7 @@
 
   :ok_person:推荐：`mall-management-system`<br/>
   :no_good:不推荐：`mall_management-system / mallManagementSystem`<br/>  
-  <br/>
+
 - __目录命名__
 
   全部采用kebab-case风格（小写横线），有复数结构时，要采用复数命名法， 缩写不用复数
@@ -63,7 +63,7 @@
 
       __杜绝完全不规范的缩写，避免望文不知义：__<br/>
       :no_good:不推荐：`AbstractClass`“缩写”命名成 `AbsClass`；`condition`“缩写”命名成 `condi`，此类随意缩写严重降低了代码的可阅读性。
- 
+ <br/> 
 ### HTML规范
 
 - __缩进__ 
@@ -100,8 +100,7 @@
 - __引号__ 
 
   尽量使用单引号''
- 
- 
+ <br/> 
 ### CSS规范
 
 - __命名__ 
@@ -230,8 +229,7 @@
       margin: 0em;
     }
     ```
-   
-
+<br/> 
 ### Less or Sass规范
 
 - __代码组织__
@@ -275,8 +273,7 @@
     }
   }
   ```
-
-
+<br/> 
 ### JavaScript规范
 
 - __命名__
@@ -408,7 +405,7 @@
   ```javascript
   if (condition) doSomething();
   ```
-  
+<br/>   
 ## 二、Vue项目规范
 
 ### Vue编码基础
@@ -727,9 +724,8 @@
         }
       ]
     }
-    ```
-  
-
+    ```  
+<br/> 
 ### 目录规范
 
 - __基础__
