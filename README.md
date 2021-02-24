@@ -27,7 +27,7 @@
   全部采用kebab-case风格（小写横线）。
 
   :ok_person:推荐：`mall-management-system`<br/>
-  :no_good:不推荐：`mall_management-system / mallManagementSystem`<br/>
+  :no_good:不推荐：`mall_management-system / mallManagementSystem`<br/>  
   
   
 - __目录命名__
