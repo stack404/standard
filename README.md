@@ -565,7 +565,7 @@
   
   - __template模版中仅保留简单的表达式__
   
-  组件template中应只包含简单的表达式（如三目运算），复杂的表达式重构为`计算属性computed`或者`方法method`。<br/>
+    组件template中应只包含简单的表达式（如三目运算），复杂的表达式重构为`计算属性computed`或者`方法method`。<br/>
     :ok_person:推荐：
     ```javascript
     <template>
@@ -597,7 +597,7 @@
 
   - __指令采用缩写形式__
   
-  用（:）表示v-bind、用@表示v-on、用#表示v-slot <br/>
+    用（:）表示v-bind、用@表示v-on、用#表示v-slot <br/>
     :ok_person:推荐：
     ```html
     <input
@@ -642,7 +642,7 @@
 
   - __页面跳转，数据传递使用路由参数__
   
-  页面跳转时，需要传递参数，推荐使用vue-router进行传参（采用vuex，页面刷新，传参会丢失，除非做两层处理）
+    页面跳转时，需要传递参数，推荐使用vue-router进行传参（采用vuex，页面刷新，传参会丢失，除非做两层处理）
   
     :ok_person:推荐：
     ```javascript
@@ -668,8 +668,8 @@
   
   - __router命名规范__
   
-  path、childrenPath采用kebab-case（小写横线）风格（和文件目录、文件名保持一致）<br/>
-  name采用CamelCase（大驼峰）风格（和组件name保持一致，keep-alive根据组件name进行缓存）<br/>
+    path、childrenPath采用kebab-case（小写横线）风格（和文件目录、文件名保持一致）<br/>
+    name采用CamelCase（大驼峰）风格（和组件name保持一致，keep-alive根据组件name进行缓存）<br/>
   
     :ok_person:推荐：
     ```javascript
@@ -697,7 +697,7 @@
   
   - __path的命名规范__
   
-  采用kebab-case（小写横线）风格，必须以“/”开头，子路由需要把父节点的path也带上。<br/>
+    采用kebab-case（小写横线）风格，必须以“/”开头，子路由需要把父节点的path也带上。<br/>
     :ok_person:推荐：
     ```javascript
     {
@@ -788,7 +788,7 @@
       
   - __assets目录__
 
-  存放静态资源，资源名使用kebab-case（小写横线）风格。<br/>
+    存放静态资源，资源名使用kebab-case（小写横线）风格。<br/>
     ```
     |assets
     |-- icons
@@ -800,7 +800,7 @@
 
   - __components目录__
 
-  组件目录。
+    组件目录。
     ```
     |components
     |-- error-log
@@ -814,7 +814,7 @@
 
   - __public目录__
 
-  存放各种js资源
+    存放各种js资源
     ```
     |public
     |-- constants                 存放常量（即可供全局使用，不变更的静态数据）
