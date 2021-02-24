@@ -290,6 +290,8 @@
   `add / update / delete / detail / get`<br/><br/>
   函数方法常用动词
   
+  | 动作单词 | 中文 | 反义词 | 反义词中文 | 
+  
   ``` 
   get 获取/set 设置,
   add 增加/remove 删除
