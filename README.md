@@ -415,7 +415,7 @@
 
 - __Vue编码基础__
 
-尽可能遵守Vue[官方规范](#https://cn.vuejs.org/v2/style-guide/)中的规范，以下列出的规范为重中之重：
+  尽可能遵守Vue[官方规范](#https://cn.vuejs.org/v2/style-guide/)中的规范，以下列出的规范为重中之重：
 
   - __组件名为多个单词__
   
