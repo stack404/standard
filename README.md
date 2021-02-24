@@ -87,16 +87,16 @@
 
   HTML5 中新增很多语义化标签，所以优先使用语义化标签，避免一个页面都是 div 或者 p 标签<br/>
   :ok_person:推荐：
-      ```html
-      <header></header>
-      <footer></footer>
-      ```
-      :no_good:不推荐：
-      ```html
-      <div>
-        <p></p>
-      </div>
-      ```
+  ```html
+  <header></header>
+  <footer></footer>
+  ```
+  :no_good:不推荐：
+  ```html
+  <div>
+    <p></p>
+  </div>
+  ```
 
  <br/>
 
