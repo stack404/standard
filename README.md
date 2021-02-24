@@ -72,7 +72,7 @@
 
 - __注释格式__ 
 
-  在每一个块状元素，列表元素和表格元素后，加上一对 HTML 注释。
+  在每一个块状元素，列表元素和表格元素后，加上一对 HTML 注释。<br/>
   注释格式：
       ```html
       <!-- 列表模块 start -->
@@ -110,54 +110,54 @@
   - id 采用camelCase（小驼峰）式命名
   - scss 中的变量、函数、混合、placeholder 采用camelCase（小驼峰）式命名
 
-  ID 和 class 的名称总是使用可以反应元素目的和用途的名称，或其他通用的名称，代替表象和晦涩难懂的名称
+    ID 和 class 的名称总是使用可以反应元素目的和用途的名称，或其他通用的名称，代替表象和晦涩难懂的名称
 
-  :ok_person:推荐：
-    ```css
-    .fw-800 {
-      font-weight: 800;
-    }
+    :ok_person:推荐：
+      ```css
+      .fw-800 {
+        font-weight: 800;
+      }
 
-    .red {
-      color: red;
-    }
-    ```
+      .red {
+        color: red;
+      }
+      ```
 
-  :no_good:不推荐：
-    ```css
-    .heavy {
-      font-weight: 800;
-    }
+    :no_good:不推荐：
+      ```css
+      .heavy {
+        font-weight: 800;
+      }
 
-    .important {
-      color: red;
-    }
-    ```
+      .important {
+        color: red;
+      }
+      ```
 
 - __选择器__
 
   - css 选择器中避免使用标签名
   - 使用直接子选择器
 
-  :ok_person:推荐：
-    ```css
-    .span-class {
-      color: blue;
-    }
-    .content > .title {
-      font-size: 2rem;
-    }
-    ```
-  :no_good:不推荐：
-    ```css
-    span {
-      color: blue;
-    }
+    :ok_person:推荐：
+      ```css
+      .span-class {
+        color: blue;
+      }
+      .content > .title {
+        font-size: 2rem;
+      }
+      ```
+    :no_good:不推荐：
+      ```css
+      span {
+        color: blue;
+      }
 
-    .content .title {
-      font-size: 2rem;
-    }
-    ```
+      .content .title {
+        font-size: 2rem;
+      }
+      ```
 
 - __尽量使用缩写属性__
 
