@@ -24,19 +24,19 @@
 
 - __项目命名__
 
-  全部采用__`kebab-case风格（小写横线）`__。
+  全部采用 _**kebab-case风格（小写横线）**_。
 
   :ok_person:推荐：`mall-management-system`<br/>
   :no_good:不推荐：`mall_management-system / mallManagementSystem`<br/>  
 
 - __目录命名__
 
-  全部采用`kebab-case风格（小写横线）`，有复数结构时，要采用复数命名法， 缩写不用复数
+  全部采用 _**kebab-case风格（小写横线）**_，有复数结构时，要采用复数命名法， 缩写不用复数
 
   :ok_person:推荐： `scripts / styles / components / images / utils / layouts / demo-styles / demo-scripts / img / doc`<br/>
   :no_good:不推荐： `script / style / demo_scripts / demoStyles / imgs / docs`
 
-    【__特殊__】VUE 的项目中的 components 中的组件目录，使用 `kebab-case 风格（小写横线）`
+    【__特殊__】VUE 的项目中的 components 中的组件目录，使用 _**kebab-case风格（小写横线）**_
 
     :ok_person:推荐： `head-search / page-loading / authorized / notice-icon`<br/>
     :no_good:不推荐： `HeadSearch / PageLoading`
