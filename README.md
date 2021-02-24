@@ -24,19 +24,19 @@
 
 - __项目命名__
 
-  全部采用 _**kebab-case风格（小写横线）**_。
+  全部采用 _**kebab-case（小写横线）**_ 风格。
 
   :ok_person:推荐：`mall-management-system`<br/>
   :no_good:不推荐：`mall_management-system / mallManagementSystem`<br/>  
 
 - __目录命名__
 
-  全部采用 _**kebab-case风格（小写横线）**_，有复数结构时，要采用复数命名法， 缩写不用复数
+  全部采用 _**kebab-case（小写横线）**_ 风格，有复数结构时，要采用复数命名法， 缩写不用复数
 
   :ok_person:推荐： `scripts / styles / components / images / utils / layouts / demo-styles / demo-scripts / img / doc`<br/>
   :no_good:不推荐： `script / style / demo_scripts / demoStyles / imgs / docs`
 
-    【__特殊__】VUE 的项目中的 components 中的组件目录，使用 _**kebab-case风格（小写横线）**_
+    【__特殊__】VUE 的项目中的 components 中的组件目录，使用 _**kebab-case（小写横线）**_ 风格
 
     :ok_person:推荐： `head-search / page-loading / authorized / notice-icon`<br/>
     :no_good:不推荐： `HeadSearch / PageLoading`
@@ -48,7 +48,7 @@
 
 - __JS/CSS/SCSS/HTML/PNG 文件命名__
 
-  全部采用 _**kebab-case 风格（小写横线）**_
+  全部采用 _**kebab-case（小写横线）**_ 风格
 
   :ok_person:推荐： `render-dom.js / signup.css / index.html / company-logo.png`<br/>
   :no_good:不推荐： `renderDom.js / UserManagement.html<br/>`
@@ -108,8 +108,8 @@
 - __命名__ 
 
   - class类名使用 _**kebab-case 风格（小写横线）**_
-  - id 采用 _**camelCase（小驼峰）式命名**_
-  - scss 中的变量、函数、混合、placeholder 采用 _**camelCase（小驼峰）式命名**_
+  - id 采用 _**camelCase（小驼峰）**_ 式命名
+  - scss 中的变量、函数、混合、placeholder 采用 _**camelCase（小驼峰）**_ 式命名
 
   ID 和 class 的名称总是使用可以反应元素目的和用途的名称，或其他通用的名称，代替表象和晦涩难懂的名称
 
@@ -281,7 +281,7 @@
 ### JavaScript规范
 
 - __命名__
-  - 方法名、参数名、成员变量、局部变量都统一使用camelCase（小驼峰） 风格；变量不能以下划线开头，也不能以下划线或美元符号结束<br/>
+  - 方法名、参数名、成员变量、局部变量都统一使用 _**camelCase（小驼峰）**_ 风格；变量不能以下划线开头，也不能以下划线或美元符号结束<br/>
     :ok_person:推荐：`localValue / getHttpMessage() / inputUserId`<br/>
     :no_good:不推荐：`_name / name_ / name$`<br/>
   
@@ -421,7 +421,7 @@
 
   - __组件名为多个单词__
   
-    组件名应始终是多个单词，命名规范遵守 _**kebab-case（小写横线）格式**_。（这样能避免现在或未来的HTML元素冲突，HTML元素始终是单个单词）。<br/>
+    组件名应始终是多个单词，命名规范遵守 _**kebab-case（小写横线）**_ 格式。（这样能避免现在或未来的HTML元素冲突，HTML元素始终是单个单词）。<br/>
     :ok_person:推荐：
     ```javascript
     export default {
@@ -441,7 +441,7 @@
     }
     ```
 
-  - __组件文件名为*kebab-case（小写横线）格式*__
+  - __组件文件名为*kebab-case（小写横线）* 格式__
   
     即单词之间采用单横杠隔开。<br/>
     :ok_person:推荐：
@@ -492,7 +492,7 @@
     |- UProfOpts.vue （使用了缩写）
     ```
 
-  - __在template中使用组件，采用*CamelCase（大驼峰）模式*，仅有自己时使用自闭合__
+  - __在template中使用组件，采用*CamelCase（大驼峰）* 模式，仅有自己时使用自闭合__
  
     :ok_person:推荐：
     ```html
@@ -507,7 +507,7 @@
   
   - __prop定义应尽量详细__
  
-    - 必须使用 _**camelCase （小驼峰）命名**_
+    - 必须使用 _**camelCase （小驼峰）**_ 命名
     - 必须指定类型
     - 必须加上注释，表明其含义
     - 必须加上 required 或者 default，两者二选其一
@@ -671,7 +671,7 @@
   - __router命名规范__
   
     path、childrenPath采用 _**kebab-case（小写横线）**_ 风格（和文件目录、文件名保持一致）<br/>
-    name采用CamelCase（大驼峰）风格（和组件name保持一致，keep-alive根据组件name进行缓存）<br/>
+    name采用 _**CamelCase（大驼峰）**_ 风格（和组件name保持一致，keep-alive根据组件name进行缓存）<br/>
   
     :ok_person:推荐：
     ```javascript
