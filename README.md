@@ -110,54 +110,54 @@
   - id 采用camelCase（小驼峰）式命名
   - scss 中的变量、函数、混合、placeholder 采用camelCase（小驼峰）式命名
 
-    ID 和 class 的名称总是使用可以反应元素目的和用途的名称，或其他通用的名称，代替表象和晦涩难懂的名称
+  ID 和 class 的名称总是使用可以反应元素目的和用途的名称，或其他通用的名称，代替表象和晦涩难懂的名称
 
-    :ok_person:推荐：
-      ```css
-      .fw-800 {
-        font-weight: 800;
-      }
+  :ok_person:推荐：
+    ```css
+    .fw-800 {
+      font-weight: 800;
+    }
 
-      .red {
-        color: red;
-      }
-      ```
+    .red {
+      color: red;
+    }
+    ```
 
-    :no_good:不推荐：
-      ```css
-      .heavy {
-        font-weight: 800;
-      }
+  :no_good:不推荐：
+    ```css
+    .heavy {
+      font-weight: 800;
+    }
 
-      .important {
-        color: red;
-      }
-      ```
+    .important {
+      color: red;
+    }
+    ```
 
 - __选择器__
 
   - css 选择器中避免使用标签名
   - 使用直接子选择器
 
-    :ok_person:推荐：
-      ```css
-      .span-class {
-        color: blue;
-      }
-      .content > .title {
-        font-size: 2rem;
-      }
-      ```
-    :no_good:不推荐：
-      ```css
-      span {
-        color: blue;
-      }
+  :ok_person:推荐：
+    ```css
+    .span-class {
+      color: blue;
+    }
+    .content > .title {
+      font-size: 2rem;
+    }
+    ```
+  :no_good:不推荐：
+    ```css
+    span {
+      color: blue;
+    }
 
-      .content .title {
-        font-size: 2rem;
-      }
-      ```
+    .content .title {
+      font-size: 2rem;
+    }
+    ```
 
 - __尽量使用缩写属性__
 
@@ -241,19 +241,21 @@
     1.@import;<br/>
     2.变量声明;<br/>
     3.样式声明;<br/>
-  ```scss
-  @import "mixins/size.less";
-  @default-text-color: #333;
 
-  .page {
-    width: 960px;
-    marg
-  }
-  ```
+    ```scss
+    @import "mixins/size.less";
+    @default-text-color: #333;
+
+    .page {
+      width: 960px;
+      marg
+    }
+    ```
+
 
 - __避免嵌套层级过多__
 
-将嵌套深度限制在3级。过多的嵌套规则会影响可读性。
+  将嵌套深度限制在3级。过多的嵌套规则会影响可读性。
 
   :ok_person:推荐：
   ```scss
