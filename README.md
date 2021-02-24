@@ -24,7 +24,7 @@
 
 - __项目命名__
 
-  全部采用```html <font color=red>kebab-case风格（小写横线）</font>```。
+  全部采用`__kebab-case风格（小写横线）__`。
 
   :ok_person:推荐：`mall-management-system`<br/>
   :no_good:不推荐：`mall_management-system / mallManagementSystem`<br/>  
