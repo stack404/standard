@@ -61,8 +61,8 @@
   :ok_person:推荐：`henan / luoyang / rmb 等国际通用的名称，可视同英文。`<br>
   :no_good:不推荐：`DaZhePromotion [打折] / getPingfenByName() [评分] / int 某变量 = 3`
 
-      __杜绝完全不规范的缩写，避免望文不知义：__<br/>
-      :no_good:不推荐：`AbstractClass`“缩写”命名成 `AbsClass`；`condition`“缩写”命名成 `condi`，此类随意缩写严重降低了代码的可阅读性。
+    __杜绝完全不规范的缩写，避免望文不知义：__<br/>
+    :no_good:不推荐：`AbstractClass`“缩写”命名成 `AbsClass`；`condition`“缩写”命名成 `condi`，此类随意缩写严重降低了代码的可阅读性。
  <br/> 
 
 ### HTML规范
